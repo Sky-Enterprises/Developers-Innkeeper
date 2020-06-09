@@ -1,0 +1,7 @@
+{
+  "name": "dumb-ugly-bot",
+  "main": "bot.py",
+  "version": "1.0.0",
+  "description": "none yet",
+  "dependencies": {}
+}
