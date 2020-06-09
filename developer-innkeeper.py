@@ -31,7 +31,7 @@ Message area, the bot will wait for certain message patterns and react to them.
 async def on_message(message):
     if message.author == client.user:
         return
-    elif "html" in message.content.lower():
+    elif "html is a programming language" in message.content.lower():
         await message.channel.send("Yes, html is indeed a real programing language.")
 
 '''
