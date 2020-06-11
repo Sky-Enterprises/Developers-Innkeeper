@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
 
-const prefix = "!ik"
+const prefix = "!ik" //TODO: Move into env vars
 
 const commands = {};
 const files = fs.readdirSync('./src/commands');
